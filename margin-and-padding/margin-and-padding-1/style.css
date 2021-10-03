@@ -17,6 +17,7 @@ body {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
+  width: 730px;
   margin-bottom: 20px;
 }
 
