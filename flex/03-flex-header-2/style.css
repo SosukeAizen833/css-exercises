@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -35,14 +38,20 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
+  margin-right: 30px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
 }
